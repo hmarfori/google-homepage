@@ -1,11 +1,8 @@
 .center {
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    position: absolute;
-    top: 30%;
-    left: 30%;
-    transform: translate(50%, 50%);
+  position:fixed;
+  top:30%;
+  left:50%;
+  transform: translate(-50%, -50%);
     
 }
 
@@ -16,7 +13,12 @@
     position: absolute;
     bottom: 50%;
     left: 50%;
-    
+    width: 30%;
+    transform: translate(-50%, -50%);
+    border-radius: 1.5rem;
+    padding: 0.25rem 0.75rem;
+    height: 2rem;
+    border: 1px solid rgba(182, 177, 177, 0.842);
     
 
 }
@@ -32,4 +34,32 @@ ul {
     padding: 4px;
   }
 
-  
+  .submit-button {
+    position: relative;
+    left: 600px;
+    top: 400px;
+  }
+
+  .submit-button2 {
+    position: relative;
+    left: 610px;
+    top: 400px;
+  }
+
+  #page-container {
+    position: relative;
+    min-height: 100vh;
+  }
+
+  #content-wrap {
+    padding-bottom: 2.5rem;
+  }
+
+  #footer {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    height: 3.0rem;
+    text-align: center;
+
+  }

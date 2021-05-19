@@ -23,25 +23,39 @@ a {
   color: black;
 }
 
-#search {
-  width: 400px;
-  height: 45px;
-  position: absolute;
-  z-index: 2;
-  left: 40%;
-  top: 330px;
-}
 
 body {
   text-align: center;
 }
 
 #search {
-  width: 375px;
-  margin: 4px auto;
+  width: 400px;
+  margin: 200px auto;
   text-align: center;
   display: inline-block;
 
-input {
-  size: ;: 60;
+
+}
+
+.bar {
+  width: 600px;
+  border-radius: 25px;
+  height: 30px;
+  border: solid 2px lightgray;
+
+}
+
+#editbutton {
+  width: 600px;
+  margin: 200px auto;
+  text-align: center;
+  display: inline-block;
+
+
+}
+
+.square {
+  width: 125px;
+  height: 30px;
+  background-color: rgb(211, 211, 211);
 }

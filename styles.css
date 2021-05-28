@@ -50,6 +50,9 @@ body {
   margin: 200px auto;
   text-align: center;
   display: inline-block;
+ 
+    
+  }
 
 
 }
@@ -57,5 +60,29 @@ body {
 .square {
   width: 125px;
   height: 30px;
-  background-color: rgb(211, 211, 211);
+  background-color: #f8f9fa;
+  color: #3c4043;
+  border: #f8f9fa;
 }
+
+.footer {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  color: #3c4043;
+  text-align: center;
+  background-color: #f8f9fa;;
+}
+
+.underline a {
+  text-decoration: none;
+}
+
+.footer a {
+  text-decoration: none;
+  
+  
+  .material-icons {
+    float: left; 
+  }
